@@ -8,15 +8,15 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&family=Noto+Serif+KR:wght@400;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f8f6f1;
-    --bg2: #f0ede5;
-    --ink: #1a1814;
-    --ink2: #5a564e;
-    --ink3: #9a9690;
-    --accent: #2d5a3d;
-    --accent2: #c8a96e;
-    --line: #e0dcd4;
-    --white: #ffffff;
+    --bg: #0f1117;
+    --bg2: #181c27;
+    --ink: #f0eeea;
+    --ink2: #c4cad8;
+    --ink3: #7a8499;
+    --accent: #4ade80;
+    --accent2: #e0b97a;
+    --line: #2a3045;
+    --white: #161a24;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -33,7 +33,7 @@
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     display: flex; justify-content: space-between; align-items: center;
     padding: 1.25rem 3rem;
-    background: rgba(248,246,241,0.92);
+    background: rgba(15,17,23,0.92);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--line);
   }
@@ -314,7 +314,7 @@
   }
   .project-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 40px rgba(0,0,0,0.07);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.4);
   }
   .project-type {
     font-size: 0.7rem;
@@ -637,19 +637,28 @@
       <div class="exp-meta">
         <div class="exp-period">2022.03 — <span class="ko">현재</span><span class="en">Present</span></div>
         <div class="exp-company"><span class="ko">신성통상</span><span class="en">Sungshin Intl.</span></div>
-        <div class="exp-role"><span class="ko">과장 · 정보보안팀</span><span class="en">Manager · Security Team</span></div>
+        <div class="exp-role"><span class="ko">과장 · 정보보안팀 / IT인프라 운영팀</span><span class="en">Manager · Security &amp; IT Infra</span></div>
       </div>
       <div class="exp-content">
-        <div class="exp-position"><span class="ko">정보보안 과장</span><span class="en">Information Security Manager</span></div>
+        <div class="exp-position"><span class="ko">정보보안팀</span><span class="en">Information Security Team</span></div>
         <div class="exp-desc">
-          <span class="ko">AWS/온프레미스 인프라 기획 및 운영, Cross Architecture 업무(차세대 프로젝트 아키텍처 검토·기술스택 도입). VMware·Nutanix 가상화 환경 운영. 방화벽(Fortinet)·UTM·WAF·VPN·NAC 등 보안 솔루션 운영 및 정책 수립. Datadog·Prometheus·PRTG 기반 시스템 모니터링 구축. ISMS 인증심사(2022~2025), 내부회계(IT)·회계감사 대응. GitLab CI / AWS CodePipeline CI/CD 구성.</span>
-          <span class="en">Planned and operated AWS/on-premise infrastructure, performed Cross Architecture reviews (next-gen project architecture &amp; tech stack evaluation). Operated VMware &amp; Nutanix virtualization. Managed security solutions (Fortinet FW, UTM, WAF, VPN, NAC) and established security policies. Built monitoring with Datadog, Prometheus, and PRTG. Led ISMS certification (2022–2025) and IT accounting audits. Configured CI/CD via GitLab CI and AWS CodePipeline.</span>
+          <span class="ko">ISMS 인증심사 대응(2022~2025, 2024년 최초심사 통과), 내부회계(IT)·회계감사 대응, IT 재해복구훈련. 방화벽(Fortinet)·UTM·WAF·VPN·NAC 등 보안 솔루션 운영 및 정책 수립. 취약점 진단 및 조치, 정보보안인식제고 활동(악성메일 대응훈련, 클린데스크 점검), 정보보호위원회 운영.</span>
+          <span class="en">Led ISMS certification (2022–2025, initial pass 2024), IT accounting audits, and DR drills. Operated security solutions (Fortinet FW, UTM, WAF, VPN, NAC) and established security policies. Conducted vulnerability assessments and managed the Information Security Committee.</span>
+        </div>
+        <div class="exp-tags" style="margin-bottom: 1.5rem;">
+          <span class="exp-tag">ISMS</span><span class="exp-tag">Fortinet/UTM</span>
+          <span class="exp-tag">WAF/VPN/NAC</span><span class="exp-tag">보안정책수립</span>
+          <span class="exp-tag">취약점진단</span><span class="exp-tag">내부회계(IT)</span>
+        </div>
+        <div class="exp-position"><span class="ko">IT인프라 운영팀</span><span class="en">IT Infrastructure Team</span></div>
+        <div class="exp-desc">
+          <span class="ko">AWS/온프레미스 인프라 기획 및 운영(EC2/ECS/RDS/VPC/ALB 등), Cross Architecture 업무(차세대 프로젝트 아키텍처 검토·기술스택 도입). VMware·Nutanix HCI 가상화 환경 운영. Datadog·Prometheus·Grafana·PRTG 기반 시스템 모니터링 구축. GitLab CI / AWS CodePipeline CI/CD 구성. 서버·네트워크(L2~L4)·미들웨어(Nginx/Tomcat/JEUS) 운영.</span>
+          <span class="en">Planned and operated AWS/on-premise infrastructure (EC2/ECS/RDS/VPC/ALB). Performed Cross Architecture reviews for next-gen projects. Operated VMware and Nutanix HCI. Built monitoring with Datadog, Prometheus, Grafana, and PRTG. Configured CI/CD via GitLab CI and AWS CodePipeline.</span>
         </div>
         <div class="exp-tags">
-          <span class="exp-tag">AWS (ECS/EC2/RDS)</span><span class="exp-tag">VMware/Nutanix</span>
-          <span class="exp-tag">Fortinet/WAF/UTM</span><span class="exp-tag">ISMS</span>
+          <span class="exp-tag">AWS (EC2/ECS/RDS)</span><span class="exp-tag">VMware/Nutanix</span>
           <span class="exp-tag">Datadog/Prometheus</span><span class="exp-tag">GitLab CI</span>
-          <span class="exp-tag">SonarQube</span><span class="exp-tag">내부회계(IT)</span>
+          <span class="exp-tag">SonarQube</span><span class="exp-tag">Cross Architecture</span>
         </div>
       </div>
     </div>
@@ -711,7 +720,7 @@
         <span class="stack-tag">ERP 연동</span><span class="stack-tag">React</span>
         <span class="stack-tag">Node.js</span><span class="stack-tag">AWS</span><span class="stack-tag">Docker</span>
       </div>
-    </a>
+    </div>
 
     <div class="project-card" style="cursor: default;">
       <div class="project-type"><span class="ko">신성통상 · 2023</span><span class="en">Sungshin Intl. · 2023</span></div>
